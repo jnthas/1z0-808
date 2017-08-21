@@ -107,26 +107,3 @@ Exercicios
 - o segredo do substring é que ele não inclui o caracter da posição final, mas inclui o da posição inicial
 
 1) a 2) b 3) a 4) a 5) e 6) b 7) b 8) e 9) c xxx 10) c 11) c xxx 12) b 13) a 14) b
-
-# 5 Usando operadores e construções de decisão
-
-
-
-## 5.1 Use operadores java
-
-- Para se atribuir um valor a uma variável ambos devem ser do mesmo tipo ou de um tipo menos abrangente.
-	- Ordem de compatibilidade:
-	- byte -> short -> int -> long -> float -> double
-	- char -> int
-	- Exceção com tipos menos abrangentes que int: byte, short, char. É possivel atribuir um int a um desses tipo, desde que não ultrapasse o limite, ex: byte b = 200 //erro
-	- Com objetos, a atribuição é sempre por **referência**
-	- Para saber o tipo retornado depois de uma operação aritmética, a regra é: o resultado é o tipo mais abrangente entre as variáveis ou no mínimo int.
-	- Toda comparação envolvendo valores numéricos não considera o tipo da variável, portanto 1 == 1.0 //true
-	- Tipo não primitivo (e boolean) só aceita == ou !=
-	- char tem valor numerico, portanto, pode ser feito 'a' == 1
-	- Usando & ou | a validação é sempre feita em todas as comparações para depois obter o resultado. Já com os operados de curto circuito, && e || basta uma condição ser satisfeita
-	- Atribuições em sequencia, sempre da direita pra esquerda, a=b=c // portanto a = c
-	- Operadore ternário sempre tem que retornar valores que temos que usar para atribuir, imprimir
-
-1) b 2) b 3) d 4)   
-	
