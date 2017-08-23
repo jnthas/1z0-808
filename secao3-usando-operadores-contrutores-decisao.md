@@ -45,7 +45,7 @@
 - Unreachable code = qdo o compilar percebe que um código não será executado em hipótese alguma, ex: um comando após o return.
 - Todos os caminhos devem retornar algo ou lançar uma exceção para que o compilador aceite
 
-1) c 2) b 3) a 4) a 5) b 
+1) c 2) b xxx 3) a 4) a 5) b 
 
 ## Switch
 
@@ -53,4 +53,4 @@
 - O case deve ser do mesmo tipo do switch, ou gera erro compilação
 - no case, só é permitido literal e constantes, ou operações envolvendo os dois. Não aceita null. Se a constante não for inicializada na mesma linha da declaração, tbm não aceita.
 
-1) d 2) a 3) b 4) a 5) c 6) a 
+1) d 2) a 3) b 4) a 5) c xxx 6) a 
