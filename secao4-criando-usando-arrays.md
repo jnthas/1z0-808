@@ -16,3 +16,19 @@
 
 ## 6.2 Array multidimensional
 
+- Pode-se criar arrays de quantas dimensões quiser
+- Pode-se inicializar somente a primeira dimensão, deixando as outras pra depois. Se for com valores conhecidos, deve-se inicializar todas as dimensões.
+- Ao tentar atribuir um double a um array de int, não compila (possible loss of precision)
+
+1) a 2) f 3) g 4) a 
+
+
+## 6.3 ArrayList
+
+- Jamais se esqueça de importar a ArrayList!!! (java.util.ArrayList)
+- O método remove() remove somente a primeira ocorrência na lista
+- Ao reescrever o equals, o parametro correto é Object e não o proprio elemento!!!
+- ArrayList aponta para referencias, se um objeto for modificado, ele será também no ArrayList
+- Num enhanced-for, é possivel setar um valor na variavel do laço, mas o arryalist não é modificado
+
+1) a 2) d 3) f 4) h 5) a 6) b 7) a 8) b 9) a xxx
