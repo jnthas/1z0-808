@@ -70,5 +70,18 @@
 
 1) d xxx 2) a xxx 3) b 4) a 5) a xxx 6) a 7) a xxx
 
+## 8.7 encapsulamento
 
+- getter e setter são um exemplo
+- nas questões sobre encapsulamento, fique atento a alternativa que esconde mais a implementação ou aquela que evita modificar valores diretamente no objeto
+
+1) b 2) c 3) b 4) b 5) a xxx 
+
+## 8.8 referências a primitivos e objetos
+
+- entender como funciona a passagem de parametro é fundamental para a certificação
+- **a passagem de parametros é feita por cópia de valores**, dessa forma ao mudar uma variável dentro de um método não altera variáveis de outros métodos, desde que a variável seja de tipo primitivo 
+- já com objetos, é feita também uma cópia de valores, mas o objeto aponta para mesma referência, portanto se for alterada alguma propriedade **será alterada também nos outros métodos**, mas se atribuir uma nova referência, os outros métodos permanecer inalterados
+
+1) d 2) c 
 
