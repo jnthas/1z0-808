@@ -2,8 +2,11 @@
 
 ## Escopo
 
+- Variável fora do seu escopo -> erro de compilacao
+- class variable = variável estática
 - Variável de instância (ou objeto) = this
 - Shadowing: declarar variável local com mesmo nome de uma variável de instância (this.x = x)
+- Se nao for usado this, o compilador usará a variável de menor escopo
 
 ## Estrutura classe Java
 

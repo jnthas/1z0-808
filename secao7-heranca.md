@@ -20,7 +20,7 @@
 
 - Quando usamos um objeto qualquer no contexto de string, na verdade é chamado o toString() do objeto. Ex. sout("Carro: " + carro)
 
-1) Sim 2) Nao 3) a 4) a 5) c 6) c 7) a 8) b
+1) Sim 2) Nao xxx 3) a 4) a 5) c 6) c xxx 7) a 8) b
 
 ## 9.2 Uso poliformismo
 
